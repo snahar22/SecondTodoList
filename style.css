@@ -1,0 +1,39 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+	background-color: #5CDB95;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+  color: #EDF5E1;
+  background-color: #05386B;
+  width: 250px;
+  height: auto;
+  min-height: 200px;
+  max-height: 400px;
+  text-align: center;
+  border-radius: 5%;
+  padding: 50px;
+}
+
+.completed{
+	text-decoration: line-through;
+	font-weight: bold;
+}
+
+#listOfItems{
+	list-style: none;
+	text-align: left;
+}
+
+button{
+	width: 40px;
+	height: 20px;
+	background-color: #EDF5E1;
+	color: #05386B;
+
+}
